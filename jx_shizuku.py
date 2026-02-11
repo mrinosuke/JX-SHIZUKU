@@ -34,7 +34,7 @@ def is_shizuku_running():
 def header():
     os.system('clear')
     print(f"{B}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
-    print(f"{W}                    JX-SHIZUKU v2.9")
+    print(f"{W}                    JX-SHIZUKU v1.0")
     print(f"{B}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━{RESET}")
 
 def setup_files():
@@ -52,7 +52,7 @@ def setup_files():
             break
             
     if files_needed:
-        print(f"{M}[+] Copy file from download...{RESET}")
+        print(f"{M}[+] Copy file from Documents...{RESET}")
         time.sleep(1)
         for f in files_to_copy:
             target = os.path.join(JX_DIR, f)
