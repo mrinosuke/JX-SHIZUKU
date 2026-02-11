@@ -51,7 +51,7 @@ else
 fi
 
 if ! grep -q "alias jx_adb=" "$RC_FILE"; then
-    echo "alias jx_adb='cd ~ && cd jx_adb && python3 jx_shizuku.py'" >> "$RC_FILE"
+    echo "alias jx_adb='cd ~ && cd JX-SHIZUKU && python3 jx_shizuku.py'" >> "$RC_FILE"
     printf "\033[1;32m[✓] Alias created in $RC_FILE\033[0m\n"
 else
     printf "\033[1;33m[!] Alias already exists in $RC_FILE\033[0m\n"
