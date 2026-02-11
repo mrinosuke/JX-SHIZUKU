@@ -7,4 +7,4 @@ JX-SHIZUKU is an advanced Android management tool designed for **Termux** that u
 Run the following command in your **Termux** terminal to clone the repository and run the setup script:
 
 ```bash
-apt install git -y && git clone [https://github.com/mrinosuke/JX-SHIZUKU.git](https://github.com/mrinosuke/JX-SHIZUKU.git) && cd JX-SHIZUKU && chmod +x start.sh && bash start.sh
+apt install git -y && git clone https://github.com/mrinosuke/JX-SHIZUKU.git && cd JX-SHIZUKU && chmod +x start.sh && bash start.sh
